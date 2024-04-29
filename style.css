@@ -97,6 +97,6 @@ body {
 /* Media queries for responsiveness */
 @media only screen and (max-width: 768px) {
     .container {
-        width: 90%; /* Adjust container width for smaller screens */
+        width: 300px; /* Adjust container width for smaller screens */
     }
 }
