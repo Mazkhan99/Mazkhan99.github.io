@@ -1,3 +1,3 @@
 # Mazkhan99.github.io
-# Author : Maz Khan
+# Author : [Maz Khan](https://github.com/Mazkhan99)
 # Contributors : [Mo Sahil](http://github.com/mo-sahil)
