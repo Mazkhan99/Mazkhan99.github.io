@@ -1,35 +1,31 @@
-/* {
+/* General styles */
+body {
+    background: #262a2f;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-
-} */
-
-body{
-    background: #262a2f;
-
-
 }
-.container{
-    width: 400px;
+
+.container {
+    width: 80%; /* Adjust container width for responsiveness */
+    max-width: 400px; /* Limit maximum width for larger screens */
     padding: 25px 35px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background: #fff;
     border-radius: 10px;
-
 }
-.container p{
+
+.container p {
     font-weight: 600;
     font-size: 15px;
     margin-bottom: 8px;
-
-
 }
-.container input{
+
+.container input {
     width: 100%;
     height: 50px;
     border: 1px solid #494eea;
@@ -37,9 +33,9 @@ body{
     padding: 10px;
     margin: 10px 0 20px;
     border-radius: 5px;
-
 }
-.container button{
+
+.container button {
     width: 100%;
     height: 50px;
     background: #494eea;
@@ -51,45 +47,56 @@ body{
     cursor: pointer;
     margin: 20px 0;
     font-weight: 500;
-
 }
-#imgBox{
-    width: 200px;
+
+#imgBox {
+    width: 100%; /* Adjust image box width for responsiveness */
+    max-width: 300px; /* Limit maximum width for larger screens */
     border-radius: 5px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s;
-
 }
 
-#imgBox img{
+#imgBox img {
     width: 100%;
-
 }
 
-#imgBox.show-img{
+#imgBox.show-img {
     max-height: 300px;
     margin: 10px auto;
     border: 1px solid #d1d1d1;
-
 }
-.error{
+
+.error {
     animation: shake 0.1s linear 10;
 }
-@keyframes shake{
-    0%{
+
+@keyframes shake {
+    0% {
         transform: translateX(0);
     }
-    25%{
+
+    25% {
         transform: translateX(-2px);
     }
-    50%{
+
+    50% {
         transform: translateX(0);
     }
-    75%{
+
+    75% {
         transform: translateX(2px);
     }
-    100%{
+
+    100% {
         transform: translateX(0);
+    }
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust container width for smaller screens */
     }
 }
