@@ -21,9 +21,6 @@ The input text or URL is encoded before being used to generate the QR code. This
 The QR code is generated using the QR Server API.
 The application uses CSS animations for error indication.
 
-License:
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 Suggestions and Contributions:
 Feel free to suggest improvements or contribute to this project by creating a pull request or raising an issue in the GitHub repository.
 
