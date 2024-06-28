@@ -16,7 +16,7 @@ Dynamic Generation: The application dynamically generates QR codes based on user
 Error Handling: If no input is provided, the input field will shake to indicate an error.
 Responsive Design: The application is designed to adapt to different screen sizes for a better user experience.
 
-How it Works:
+How it Works :
 The input text or URL is encoded before being used to generate the QR code. This ensures proper handling of special characters.
 The QR code is generated using the QR Server API.
 The application uses CSS animations for error indication.
